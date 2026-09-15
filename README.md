@@ -4,6 +4,8 @@ Análise empírica do consumo de seguros das famílias com estudantes do Centro 
 
 A partir de dados coletados por questionário, o estudo descreve o perfil da amostra e compara grupos para investigar diferenças no consumo de seguros.
 
+*Trabalho completo* https://repositorio.ufpb.br/jspui/handle/123456789/37913
+
 #### Metodologia
 
 Pesquisa aplicada, quantitativa, descritiva e exploratória; dados coletados por questionário estruturado; amostra não probabilística por conveniência, com 135 respondentes vinculados ao CCSA/UFPB. Tratamento e padronização da base; análise estatística descritiva e comparativa no R.
