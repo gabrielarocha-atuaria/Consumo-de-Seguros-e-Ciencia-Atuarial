@@ -34,7 +34,7 @@ Amostra por conveniência, tamanho reduzido após filtragem, recorte restrito ao
 ** Modelar separadamente a probabilidade de contratação por ramo de seguro, verificando se os determinantes de seguros de pessoas diferem daqueles associados aos seguros de danos.
 ** Desenvolver modelos de propensão ao consumo de seguros, buscando identificar quais características apresentam maior capacidade preditiva sobre a contratação.
 
-#### Conclusões
+#### Conclusoes
 
 Os resultados não evidenciaram diferença estatisticamente significativa no consumo de seguros entre famílias com estudantes de Ciências Atuariais e aquelas vinculadas aos demais cursos analisados. Assim, a formação atuarial, isoladamente, não se mostrou suficiente para diferenciar o comportamento de consumo na amostra estudada.
 
