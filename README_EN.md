@@ -6,6 +6,14 @@ from an Actuarial Science perspective.
 Based on data collected through a questionnaire, this study describes the sample profile and compares different groups to investigate 
 differences in insurance consumption.
 
+## Full Academic Work
+
+The complete undergraduate thesis is available through the Institutional Repository of the Federal University of Paraíba (UFPB).
+
+**Original title:** *Consumo de seguros das famílias que possuem estudantes no Centro de Ciências Sociais Aplicadas em sua composição: uma análise empírica sob a ótica da Ciência Atuarial.*
+
+[View the full thesis in the UFPB Institutional Repository](https://repositorio.ufpb.br/jspui/handle/123456789/37913)
+
 ## Methodology
 
 Applied, quantitative, descriptive, and exploratory research based on data collected through a structured questionnaire. The study used 
