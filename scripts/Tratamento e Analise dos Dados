@@ -1,0 +1,130 @@
+### Tratamento e análise dos dados
+
+Os scripts disponibilizados nesta pasta documentam as etapas de preparação, tratamento, análise descritiva e cruzamento das variáveis utilizadas no Trabalho de Conclusão de Curso **“Consumo de seguros em famílias com estudantes do Centro de Ciências Sociais Aplicadas: evidência empírica”**.
+
+A pesquisa foi realizada por meio de questionário estruturado. As respostas coletadas foram inicialmente importadas para o R em sua forma bruta e, posteriormente, submetidas a procedimentos de limpeza, padronização, recodificação e análise estatística.
+
+#### 1. Importação e inspeção da base
+
+A primeira etapa consistiu na importação da base de respostas para o R e na inspeção de sua estrutura. Foram verificadas dimensões, tipos das variáveis, valores ausentes, categorias registradas e estatísticas descritivas iniciais.
+
+Colunas administrativas provenientes do formulário, sem relevância para a análise estatística, foram excluídas. Em seguida, os nomes das variáveis foram padronizados para facilitar sua manipulação nos scripts.
+
+#### 2. Seleção e identificação das variáveis de análise
+
+As questões do instrumento de pesquisa foram convertidas em variáveis relacionadas às características sociodemográficas, socioeconômicas e comportamentais dos respondentes e de suas famílias.
+
+Entre as variáveis efetivamente utilizadas nas análises encontram-se:
+
+* sexo;
+* idade;
+* estado civil;
+* localização;
+* religião;
+* universidade;
+* curso de graduação;
+* nível educacional do chefe da família;
+* número de membros da família;
+* renda familiar;
+* conhecimento financeiro;
+* percepção de risco;
+* existência atual ou anterior de seguro na família;
+* decisão familiar conjunta sobre contratação;
+* fatores considerados na contratação;
+* tipos de seguro;
+* experiência de acionamento e atendimento das expectativas.
+
+A variável referente à existência atual ou anterior de seguro na família foi utilizada como uma das principais referências para investigar diferenças no comportamento de consumo entre os grupos analisados.
+
+#### 3. Limpeza e padronização
+
+As respostas foram verificadas antes das análises para reduzir inconsistências decorrentes de diferentes formas de preenchimento.
+
+Foram realizados, conforme a natureza de cada variável:
+
+* tratamento de valores ausentes;
+* conversão de variáveis para formatos numéricos ou categóricos;
+* remoção de espaços, acentos e caracteres que dificultavam a classificação;
+* consolidação de diferentes grafias referentes à mesma categoria;
+* recodificação de categorias;
+* ordenação de variáveis ordinais;
+* agrupamento de categorias com baixa frequência;
+* identificação e tratamento de respostas inválidas;
+* criação de categorias auxiliares necessárias às análises.
+
+Esse procedimento foi particularmente relevante para variáveis como localização, universidade, curso, religião, renda, escolaridade e questões de múltipla escolha.
+
+#### 4. Análise descritiva da amostra
+
+Após a padronização, cada variável foi inicialmente examinada de forma individual.
+
+Para variáveis categóricas, foram calculadas frequências absolutas e relativas. Para variáveis quantitativas, foram utilizadas medidas descritivas, como média, mediana, desvio-padrão, valores mínimo e máximo e, quando pertinente, coeficiente de variação.
+
+Também foram produzidas representações gráficas destinadas à caracterização da amostra e à identificação visual de diferenças entre grupos.
+
+#### 5. Construção dos cruzamentos
+
+Depois da caracterização individual das variáveis, foram construídas tabelas de contingência e proporções condicionais para investigar como o consumo de seguros se distribuía entre diferentes características dos respondentes e de suas famílias.
+
+Entre os principais cruzamentos explorados nos scripts encontram-se:
+
+**Sexo × consumo de seguros**
+Comparação da proporção de famílias que possuíam ou já haviam possuído seguro segundo o sexo do respondente.
+
+**Idade × consumo de seguros**
+Comparação da distribuição etária entre os diferentes grupos de consumo de seguros.
+
+**Curso de graduação × consumo de seguros**
+Comparação da proporção de famílias com experiência de consumo de seguros entre estudantes dos cursos analisados, com destaque para Ciências Atuariais.
+
+**Nível educacional do chefe da família × consumo de seguros**
+Investigação da distribuição da posse ou experiência com seguros segundo o nível de escolaridade do chefe familiar.
+
+**Renda × consumo de seguros**
+Comparação das proporções de famílias com e sem experiência de seguro em cada faixa de renda.
+
+**Renda × curso de graduação**
+Caracterização das diferenças socioeconômicas existentes entre os grupos de estudantes antes da interpretação das diferenças observadas no consumo de seguros.
+
+**Percepção de risco × consumo de seguros**
+Comparação da adesão ao seguro entre respondentes classificados segundo diferentes perfis de percepção de risco.
+
+Além desses cruzamentos, foram realizadas análises complementares envolvendo conhecimento financeiro, decisão familiar, fatores considerados importantes para contratação, tipos de seguros e experiência de utilização do produto.
+
+#### 6. Transformação de respostas múltiplas
+
+Questões que permitiam selecionar mais de uma alternativa, como fatores considerados importantes para contratar seguros, exigiram tratamento adicional.
+
+As alternativas foram separadas e transformadas em indicadores binários (variáveis dummy), permitindo identificar individualmente a ocorrência de cada fator e realizar cruzamentos posteriores.
+
+Esse procedimento possibilitou investigar, por exemplo, diferenças na valorização de preço e rentabilidade segundo o nível de conhecimento financeiro.
+
+#### 7. Análises de associação
+
+Quando aplicável, as diferenças observadas nas tabelas e gráficos foram complementadas por testes estatísticos de associação ou comparação.
+
+Os scripts incluem, conforme a estrutura das variáveis e das frequências observadas:
+
+* teste do qui-quadrado de independência;
+* teste exato de Fisher ou sua versão com simulação;
+* teste de proporções;
+* correlação de Spearman;
+* análise de variância (ANOVA), utilizada em análises envolvendo idade.
+
+Esses procedimentos foram empregados como apoio à interpretação das diferenças observadas na amostra, considerando as limitações decorrentes de seu tamanho e do processo de seleção dos participantes.
+
+#### 8. Comparação entre Ciências Atuariais e demais cursos
+
+Uma das análises diretamente relacionadas à hipótese do trabalho consistiu em comparar a proporção de consumo de seguros entre estudantes de **Ciências Atuariais** e estudantes dos demais cursos considerados.
+
+Para essa comparação, os respondentes foram agrupados em dois conjuntos e foi aplicado um teste de proporções, utilizando como evento de interesse a existência atual ou anterior de seguro na família.
+
+Essa etapa permitiu avaliar quantitativamente a hipótese de que famílias com estudantes de Ciências Atuariais apresentariam maior consumo de seguros em comparação às famílias dos demais estudantes analisados.
+
+#### 9. Limitações da inferência
+
+A pesquisa utilizou uma **amostra não probabilística por conveniência**, decorrente das condições de acesso aos estudantes durante a aplicação do questionário.
+
+Dessa forma, as frequências, proporções, cruzamentos e testes estatísticos apresentados devem ser interpretados no contexto da amostra observada. Os resultados permitem identificar padrões, diferenças e associações entre os grupos participantes, mas não devem ser automaticamente generalizados para toda a população de estudantes do Centro de Ciências Sociais Aplicadas.
+
+Os detalhes metodológicos, critérios de seleção da amostra, instrumento de pesquisa, resultados e discussão encontram-se apresentados integralmente no TCC.
