@@ -115,26 +115,35 @@ print(teste_qui_sexo)
 
 
 # ------------------------------------------------------------
-# 7. VISUALIZAÇÃO
+# 7. VISUALIZAÇÃO — SEXO × CONSUMO DE SEGUROS
 # ------------------------------------------------------------
 
-ggplot(
+# Representação gráfica da distribuição proporcional das respostas
+# sobre consumo familiar de seguros segundo o sexo do respondente.
+#
+# O gráfico utiliza apenas o recorte comparável (Masculino e Feminino).
+# Os números apresentados nas barras correspondem às frequências
+# absolutas observadas em cada categoria de resposta.
+
+grafico_sexo_consumo <- ggplot(
   df_sexo_comparavel,
   aes(x = sexo, fill = TemSeguro_TeveSeguro)
 ) +
   geom_bar(position = "fill", color = "white") +
   scale_y_continuous(labels = scales::percent) +
   labs(
-    title = "Consumo de Seguros segundo o Sexo do Respondente",
-    subtitle = "Distribuição proporcional dentro de cada grupo",
-    x = "Sexo do respondente",
+    title = "Diferença de Consumo de Seguros por Sexo",
+    subtitle = "Distribuição proporcional das respostas por sexo",
+    x = "Sexo do Entrevistado",
     y = "Proporção",
-    fill = "Família tem ou já teve seguro?",
+    fill = "Tem/Teve Seguro?",
     caption = "Fonte: Elaborado pela autora (2026)."
   ) +
   theme_minimal()
 
+grafico_sexo_consumo
 
+#Figura gerada em 02_plots/sexo
 # ------------------------------------------------------------
 # FIM — V01 SEXO
 # ------------------------------------------------------------
