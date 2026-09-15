@@ -26,13 +26,13 @@ Amostra por conveniência, tamanho reduzido após filtragem, recorte restrito ao
 
 #### Possibilidades de aprofundamento
 
-** Testar modelos multivariados, como regressão logística, para estimar a probabilidade de uma família possuir seguro a partir de diferentes características dos respondentes.
-** Investigar conjuntamente renda familiar, conhecimento financeiro e formação acadêmica, verificando possíveis efeitos de interação sobre o consumo de seguros.
-** Ampliar a pesquisa para outros cursos, centros acadêmicos e instituições de ensino, aumentando a heterogeneidade e a representatividade da amostra.
-** Incorporar variáveis da economia comportamental, como aversão à perda, percepção de probabilidade, excesso de confiança, preferência pelo presente, confiança nas seguradoras e percepção do custo-benefício do seguro.
-** Investigar a intenção de contratação, distinguindo famílias que não possuem seguro, mas apresentam propensão à contratação, daquelas que efetivamente rejeitam o produto.
-** Modelar separadamente a probabilidade de contratação por ramo de seguro, verificando se os determinantes de seguros de pessoas diferem daqueles associados aos seguros de danos.
-** Desenvolver modelos de propensão ao consumo de seguros, buscando identificar quais características apresentam maior capacidade preditiva sobre a contratação.
+- Testar modelos multivariados, como regressão logística, para estimar a probabilidade de uma família possuir seguro a partir de diferentes características dos respondentes.
+-  Investigar conjuntamente renda familiar, conhecimento financeiro e formação acadêmica, verificando possíveis efeitos de interação sobre o consumo de seguros.
+-  Ampliar a pesquisa para outros cursos, centros acadêmicos e instituições de ensino, aumentando a heterogeneidade e a representatividade da amostra.
+-  Incorporar variáveis da economia comportamental, como aversão à perda, percepção de probabilidade, excesso de confiança, preferência pelo presente, confiança nas seguradoras e percepção do custo-benefício do seguro.
+-  Investigar a intenção de contratação, distinguindo famílias que não possuem seguro, mas apresentam propensão à contratação, daquelas que efetivamente rejeitam o produto.
+- Modelar separadamente a probabilidade de contratação por ramo de seguro, verificando se os determinantes de seguros de pessoas diferem daqueles associados aos seguros de danos.
+- Desenvolver modelos de propensão ao consumo de seguros, buscando identificar quais características apresentam maior capacidade preditiva sobre a contratação.
 
 #### Conclusoes
 
