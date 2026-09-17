@@ -1,5 +1,5 @@
 # ============================================================
-# TESTE DE HIPÓTESE — CURSO × CONSUMO DE SEGUROS
+# TESTE DE HIPÓTESE — CURSO × CONSUMO DE SEGUROS TesteHip_CursoeConsumo.R
 # ============================================================
 # Etapa: Teste da hipótese principal
 #
