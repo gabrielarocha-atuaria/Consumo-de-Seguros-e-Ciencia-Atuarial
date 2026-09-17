@@ -271,10 +271,9 @@ grafico_sexo_decisao <- ggplot(
 
 grafico_sexo_decisao
 
-#Não houve evidência estatística suficiente para rejeitar a hipótese nula de independência
-entre sexo e decisão conjunta. Portanto, na amostra analisada, não foi identificada 
-associação estatisticamente significativa entre o sexo do respondente e a decisão familiar 
-conjunta de contratar seguro.
+#Não foi encontrada associação estatisticamente significativa (p = 0,8889). 
+Portanto, não se rejeita H0: a amostra não fornece evidência suficiente de associação 
+entre sexo e decisão conjunta.
 
 # ------------------------------------------------------------
 # FIM — SEXO × DECISÃO CONJUNTA
