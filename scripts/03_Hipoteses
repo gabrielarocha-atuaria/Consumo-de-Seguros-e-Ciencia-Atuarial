@@ -1,8 +1,1 @@
-Adiciona o teste da hipótese principal do estudo, comparando
-a proporção de consumo de seguros entre estudantes de Ciências
-Atuariais e estudantes dos demais cursos considerados.
 
-As frequências utilizadas no teste são calculadas diretamente
-da base tratada. O script inclui formação dos grupos, proporções
-observadas, teste unilateral de comparação de proporções,
-estatísticas do teste e visualização dos resultados.
