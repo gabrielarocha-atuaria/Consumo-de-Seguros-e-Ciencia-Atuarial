@@ -231,6 +231,10 @@ grafico_estado_decisao <- ggplot(
 
 grafico_estado_decisao
 
+Foi observado um padrão descritivo: decisão conjunta aparece com maior frequência relativa 
+entre casados e pessoas em união estável, enquanto decisões individuais predominam entre 
+solteiros e separados judicialmente. Não temos, no material final recuperado, um teste 
+inferencial documentado que permita declarar significância estatística para esse cruzamento.
 
 # ------------------------------------------------------------
 # FIM — ESTADO CIVIL × DECISÃO CONJUNTA
