@@ -289,6 +289,9 @@ grafico_renda_seguro <- ggplot(
 
 grafico_renda_seguro
 
+# Foi encontrada associação estatisticamente significativa entre renda e consumo de seguros 
+(p < 0,05). Na amostra, a presença de seguro tende a aumentar nas faixas superiores de renda. 
+Isso indica associação, não causalidade.
 
 # ------------------------------------------------------------
 # FIM — RENDA × CONSUMO DE SEGUROS
