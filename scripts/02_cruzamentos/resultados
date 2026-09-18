@@ -20,7 +20,7 @@ conforme o Teste Exato de Fisher (p = 0,8889).
                                       |+ percentuais condicionais |  conjunta**
 
 | **Sexo × Decisão Conjunta**         | Teste Exato de Fisher     |**Não foi encontrada associação                                                                                                                                                                                                
-|                                     |                           | estatisticamente significativa** 
+                                                                    estatisticamente significativa** 
 
 # Na amostra, a presença de seguro tende a aumentar nas faixas superiores de renda. 
 Isso indica associação, não causalidade entre Renda e Consumo de seguros (p < 0,05).
@@ -30,11 +30,21 @@ enquanto decisões individuais predominam entre solteiros e separados judicialme
 
 **Não temos, um teste inferencial documentado que permita declarar significância estatística 
 para o cruzamento.** Estado Civil e Decisão Conjunta um padrão descritivo:**
-                                                                   
-H0: a amostra não fornece evidência suficiente de associação entre sexo e decisão conjunta. 
-Portanto, não se rejeita (`p = 0,8889`).
 
+# teste_fisher$p.value
+O que esse cruzamento acrescenta ao estudo uma pergunta diferente da hipótese principal. 
+Aqui não estamos perguntando se um grupo apresenta uma proporção maior que outro, mas se a distribuição
+de decisão conjunta apresenta evidência de associação com sexo.
 
+Portanto:
+
+ H0 : Sexo e decisao conjunta sao independentes
+ H1 : Sexo e decisao conjunta estão associados
+
+O p = 0,8889 documentado é muito superior a 0,05. 
+A interpretação apropriada é que não houve evidência estatística suficiente, na amostra analisada, 
+para rejeitar a hipótese de independência entre sexo e decisão conjunta. 
+# Isso não equivale a demonstrar que as variáveis são necessariamente independentes na população.
 
 
 
