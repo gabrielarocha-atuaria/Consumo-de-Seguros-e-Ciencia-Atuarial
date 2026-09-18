@@ -272,8 +272,8 @@ grafico_sexo_decisao <- ggplot(
 grafico_sexo_decisao
 
 #Não foi encontrada associação estatisticamente significativa (p = 0,8889). 
-Portanto, não se rejeita H0: a amostra não fornece evidência suficiente de associação 
-entre sexo e decisão conjunta.
+Portanto, nao se rejeita H0: a amostra nao fornece evidência suficiente de associacao 
+entre sexo e decisao conjunta.
 
 # ------------------------------------------------------------
 # FIM — SEXO × DECISÃO CONJUNTA
