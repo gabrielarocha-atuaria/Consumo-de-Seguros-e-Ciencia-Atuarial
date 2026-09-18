@@ -51,27 +51,25 @@ Fisher mostrou que a probabilidade de obtenção de tais valores é dada pela di
 (2x2), e quando alguma frequência esperada é menor que 5. Considera o tamanho da amostra para aproximação
 de valores esperados ser baixa, mantem o total de linhas e colunas fixo.
 
-# Observação: o princípio do teste pode ser estendido para o caso geral de uma tabela m×n, se baseiam em 
-amostragens aleatórias massivas, pela Lei dos Grandes Números. O cálculo qui-quadrado estatística 
-\[\chi ^{2}\]  testa a associação
-entre as variáveis categóricas ou se uma amostra se ajusta a distribuição teórica. Quando a amostra tem 
-distribuição de probabilidades parametrizada e gera amostras de Markov Chain, o método de Monte Carlo
-(MCMC) é usado para obter uma aproximação no limite; as amostras geradas são como as amostradas desejadas.
-Elas podem verificar os estados de transição do teste de independência, também  ser usadas para 
-resolver quaisquer problemas com uma interpretação probabilística. Praticamente qualquer problema matemático
-complexo — mesmo integrais multidimensionais puras ou otimizações combinatórias que não parecem 
-probabilísticas à primeira vista — pode ser reformulado como o cálculo de uma esperança matemática e 
-resolvido eficientemente por MCMC. 
-
+# Notas: o princípio do teste pode ser estendido para o caso geral de uma tabela m×n, se baseiam em 
+amostragens aleatórias massivas, pela Lei dos Grandes Números. O cálculo qui-quadrado estatística X²
+testa a associação entre as variáveis categóricas ou se uma amostra se ajusta a distribuição teórica.
+Quando a amostra tem distribuição de probabilidades parametrizada e gera amostras de Markov Chain,
+o método de Monte Carlo (MCMC) é usado para obter uma aproximação no limite; as amostras geradas são como
+as amostradas desejadas. Elas podem verificar os estados de transição do teste de independência, 
+também  ser usadas para resolver quaisquer problemas com uma interpretação probabilística. 
 Praticamente qualquer problema matemático complexo — mesmo integrais multidimensionais puras ou otimizações
-combinatórias que não parecem probabilísticas à primeira vista — pode ser reformulado como o cálculo de uma
-esperança matemática e resolvido eficientemente por MCMC.
+combinatórias que não parecem probabilísticas à primeira vista — pode ser reformulado como o cálculo
+de uma esperança matemática e resolvido eficientemente por MCMC. 
 
-O resultado do teste de Fisher documentado é p = 0,8889 é muito superior a 0,05. A interpretação apropriada
+O  teste Exato de Fisher é documentado p = 0,8889 é muito superior a 0,05. A interpretação apropriada
 é que não houve evidência estatística suficiente, na amostra analisada, para rejeitar a hipótese de independência
-entre sexo e decisão conjunta. 
+entre sexo e decisão conjunta. Portanto, os dados disponíveis não fornecem evidência suficiente para afirmar 
+que a forma de decisão conjunta difere segundo o sexo do respondente. 
 
-# Isso não equivale a demonstrar que as variáveis são necessariamente independentes na população.
+# Este resultado está restrito à amostra estudada e não deve ser interpretado como prova de independência 
+entre essas variáveis na população. Isso não equivale a demonstrar que as  variáveis são necessariamente 
+independentes na população. 
 
 Vejamos novamente essa apresentação de forma conclusiva.
 
@@ -114,4 +112,12 @@ cat(
   "\nConclusão:", conclusao, "\n"
 )
 
+# Assim, se o resultado reproduzir o registrado no trabalho, a saída será aproximadamente:
 
+P-valor = 0.8889
+
+Conclusão:
+Não se rejeita H0 ao nível de significância de 5%.
+Não há evidência estatística suficiente de associação entre sexo e decisão conjunta na amostra analisada.
+p_valor <- 0.8889 Então não encontramos uma diferença estatisticamente sustentada entre homens e mulheres
+quanto à decisão conjunta.
