@@ -1,0 +1,71 @@
+Quais características parecem estar relacionadas ao comportamento securitário observado na amostra 
+— e qual é a força da evidência para cada relação?
+
+A análise foi construída em duas etapas complementares. Primeiro, foram realizados cruzamentos entre
+características dos respondentes e variáveis relacionadas ao consumo ou à tomada de decisão sobre seguros.
+Em seguida, foi realizado o teste da hipótese principal do estudo, comparando diretamente a proporção de 
+consumo de seguros entre estudantes de Ciências Atuariais e estudantes dos demais cursos considerados.
+
+
+Essa sequência permite distinguir padrões descritivos, associações sustentadas por testes estatísticos e 
+a hipótese específica que motivou a pesquisa.
+
+| Análise                             | Procedimento                                      | Evidência encontrada                                                         |
+| ----------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Renda × Consumo de Seguros**      | Tabela de contingência + teste de independência   | Associação estatisticamente significativa (`p < 0,05`)                       |
+| **Estado Civil × Decisão Conjunta** | Tabela de contingência + percentuais condicionais | Padrão descritivo; sem teste inferencial documentado                         |
+| **Sexo × Decisão Conjunta**         | Teste Exato de Fisher                             | Não foi encontrada associação estatisticamente significativa (`p = 0,8889`)  |
+| **Curso × Consumo de Seguros**      | Teste unilateral de comparação de proporções      | A hipótese de maior consumo entre estudantes de Atuariais não foi sustentada |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
