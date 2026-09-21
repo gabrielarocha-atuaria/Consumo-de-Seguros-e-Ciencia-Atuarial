@@ -1,7 +1,7 @@
 # ============================================================
-# TESTE DE HIPÓTESE — CURSO × CONSUMO DE SEGUROS
+# TESTE DE HIPÓTESE PRINCIPAL — CURSO × CONSUMO DE SEGUROS
 # ============================================================
-# Etapa: Teste da hipótese principal
+# Etapa: Teste da hipótese que atendende a questão de pesquisa.
 #
 # OBJETIVO:
 # Comparar a proporção de consumo de seguros entre estudantes
