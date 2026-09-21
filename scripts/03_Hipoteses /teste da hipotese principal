@@ -18,7 +18,118 @@ a hipótese específica que motivou a pesquisa.
 | **Curso × Consumo de Seguros**      | Teste unilateral de comparação de proporções      | A hipótese de maior consumo entre estudantes de Atuariais não foi sustentada |
 
 
+# Teste de Hipótese — Curso × Consumo de Seguros
 
+## Objetivo
+
+O teste de hipótese buscou verificar se famílias com estudantes de
+Ciências Atuariais apresentavam maior proporção de consumo de seguros
+quando comparadas às famílias dos estudantes dos demais cursos
+considerados na pesquisa.
+
+A análise parte da hipótese de que o conhecimento técnico adquirido
+na formação atuarial poderia estar associado a uma maior presença
+de seguros no ambiente familiar.
+
+---
+
+## Construção da análise
+
+A variável **Curso** foi inicialmente tratada e harmonizada para
+corrigir diferentes formas de preenchimento.
+
+Para o teste da hipótese principal, os respondentes foram organizados
+em dois grupos:
+
+- **Grupo 1 — Ciências Atuariais**
+- **Grupo 2 — Outros cursos:** Ciências Contábeis, Ciências Econômicas
+  e Administração
+
+O consumo de seguros foi representado pela variável que identifica
+se a família do respondente **tem ou já teve seguro**.
+
+Para a comparação de proporções foram consideradas as respostas
+**Sim** e **Não**.
+
+---
+
+## Por que utilizar um teste de proporções?
+
+A hipótese não buscava apenas identificar uma associação genérica
+entre curso e consumo de seguros.
+
+A pergunta era direcional:
+
+> A proporção de famílias com seguro é maior entre estudantes de
+> Ciências Atuariais do que entre estudantes dos demais cursos?
+
+Como foram comparadas as proporções de uma resposta binária entre
+dois grupos independentes, foi utilizado um **teste de comparação
+de duas proporções**.
+
+A hipótese foi definida como:
+
+**H₀:** p(Atuariais) ≤ p(Outros)
+
+**H₁:** p(Atuariais) > p(Outros)
+
+O teste foi, portanto, **unilateral**, pois a hipótese de pesquisa
+estabelecia previamente a direção da diferença esperada.
+
+---
+
+## Resultados observados
+
+Os dados utilizados no teste apresentaram:
+
+| Grupo | Famílias com seguro | Total | Proporção |
+|---|---:|---:|---:|
+| Ciências Atuariais | 25 | 37 | 67,6% |
+| Outros cursos | 44 | 64 | 68,8% |
+
+As proporções observadas foram muito próximas.
+
+Além disso, a proporção encontrada entre os estudantes de Ciências
+Atuariais não foi superior à observada no grupo dos demais cursos.
+
+O teste estatístico não forneceu evidência suficiente para sustentar
+a hipótese alternativa.
+
+---
+
+## Conclusão
+
+Na amostra analisada, **não foi encontrada evidência estatística
+suficiente para afirmar que estudantes de Ciências Atuariais
+apresentam maior proporção de consumo familiar de seguros quando
+comparados aos estudantes dos demais cursos considerados**.
+
+Assim, a formação em Ciências Atuariais não se apresentou, nesta
+amostra, como fator diferenciador mensurável do consumo familiar
+de seguros.
+
+Esse resultado não demonstra que os grupos sejam iguais nem que
+a formação acadêmica não possa estar relacionada a outros aspectos
+do comportamento securitário. A conclusão está restrita à hipótese,
+à variável de consumo utilizada e à amostra analisada.
+
+---
+
+## Limitações
+
+A interpretação deve considerar as limitações do estudo:
+
+- amostragem não probabilística por acessibilidade/conveniência;
+- tamanho reduzido em alguns recortes analíticos;
+- presença de dados faltantes em determinadas variáveis;
+- variação do número de observações válidas entre as análises.
+
+Essas características restringem a generalização dos resultados
+para outras populações.
+
+Como continuidade, o estudo sugere ampliar a amostra e utilizar
+**modelos estatísticos multivariados**, permitindo analisar
+simultaneamente diferentes fatores associados ao consumo de seguros.
 
 
 
